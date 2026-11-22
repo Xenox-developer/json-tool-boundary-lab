@@ -1,0 +1,14 @@
+{
+  "valid_reference": {
+    "tests": 14,
+    "failures": 0,
+    "errors": 0,
+    "passed": true
+  },
+  "deliberately_ungated": {
+    "tests": 14,
+    "failures": 6,
+    "errors": 2,
+    "passed": false
+  }
+}

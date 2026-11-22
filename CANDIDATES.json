@@ -1,0 +1,42 @@
+[
+  {
+    "id": "json-tool-boundary",
+    "rank": 1,
+    "status": "feasible_now",
+    "claim": "Approval/execution parser disagreement may admit a forbidden call",
+    "source": "RFC8259 plus Check Point2026-11-19 and MCP tools2025-06-18",
+    "experiment": "20rawtexts×3policies; owned note sink",
+    "baseline": "first approval then last execution",
+    "metric": "actual forbidden file effects/8; benign writes/8; negative/4",
+    "resources": "stdlib+existingCodexINVARIANT,no measured inference",
+    "runtime": "minutes implementation,seconds primary",
+    "limitations": "constructed parser mismatch,not field rate/vendor vulnerability",
+    "novelty": "Distinct from earlier refund argument authorization and schema-output extraction: raw duplicate-member interpretation at a gate/executor boundary"
+  },
+  {
+    "id": "agent-file-symlink",
+    "rank": 2,
+    "status": "feasible_with_more_design",
+    "claim": "Resolved-path precheck may not bind final opened file",
+    "source": "AWS2026-11-20 as file-safety motivation,not symlink incident claim",
+    "experiment": "owned temp-directory deterministic path replacement",
+    "baseline": "resolve then open",
+    "metric": "outside-root marker writes and benign completion",
+    "resources": "stdlib descriptor APIs need explicit platform controls",
+    "runtime": "one cycle after design",
+    "limitations": "timing/filesystem identity contract needs careful preregistration; do not reproduce reported intrusion"
+  },
+  {
+    "id": "puzzlemask-local",
+    "rank": 3,
+    "status": "insufficient_evidence_for_replication",
+    "claim": "Guardrail strength gap can miss transformed requests",
+    "source": "Check Point2026-11-19",
+    "experiment": "local guard/consumer comparison",
+    "baseline": "direct benign/bad labels",
+    "metric": "semantic policy violations with independent oracle",
+    "resources": "2local models available but no faithful frontier configurations",
+    "runtime": "model dependent",
+    "limitations": "reported model/puzzle procedure not frozen; tiny local adaptation would not substantiate broad claim"
+  }
+]

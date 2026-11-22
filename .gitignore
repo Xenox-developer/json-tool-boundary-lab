@@ -1,0 +1,4 @@
+.invariant/
+__pycache__/
+*.pyc
+check-report.json

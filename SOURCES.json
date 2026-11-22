@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-11-22",
+  "sources": [
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc8259",
+      "date": "2017-12",
+      "read_scope": "Sections4 Objects and8.3 String Comparison; unique names and interoperability; original engineering motivation"
+    },
+    {
+      "url": "https://docs.python.org/3.12/library/json.html",
+      "date": null,
+      "read_scope": "Repeated Names and object_pairs_hook; living3.12 docs currently3.12.16 versus host3.12.1"
+    },
+    {
+      "url": "https://modelcontextprotocol.io/specification/2025-06-18/server/tools",
+      "date": "2025-06-18",
+      "read_scope": "Tool calls, input schema, Security Considerations; only motivates boundary, no MCP transport tested"
+    },
+    {
+      "url": "https://research.checkpoint.com/2026/30-years-of-gatekeeper-asymmetry-doom-the-paradox-that-makes-powerful-llms-more-vulnerable/",
+      "date": "2026-11-19",
+      "read_scope": "Abstract,Introduction,Hash Comparison,Pattern Matching,PuzzleMask introductory section; conceptual motivation only, no replication"
+    },
+    {
+      "url": "https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/",
+      "date": "2026-11-20",
+      "read_scope": "Discovery,operations,zero-day,actions taken; candidate triage only, no exploit/code executed"
+    }
+  ]
+}

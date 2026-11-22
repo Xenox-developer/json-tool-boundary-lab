@@ -1,0 +1,302 @@
+[
+  {
+    "id": "a_arguments_escaped__first_then_last",
+    "fixture": "a_arguments_escaped",
+    "policy": "first_then_last"
+  },
+  {
+    "id": "n_invalid__parse_once",
+    "fixture": "n_invalid",
+    "policy": "parse_once"
+  },
+  {
+    "id": "b_order__parse_once",
+    "fixture": "b_order",
+    "policy": "parse_once"
+  },
+  {
+    "id": "n_folder__first_then_last",
+    "fixture": "n_folder",
+    "policy": "first_then_last"
+  },
+  {
+    "id": "b_plain__parse_once",
+    "fixture": "b_plain",
+    "policy": "parse_once"
+  },
+  {
+    "id": "b_same_replace__strict_unique",
+    "fixture": "b_same_replace",
+    "policy": "strict_unique"
+  },
+  {
+    "id": "b_order__strict_unique",
+    "fixture": "b_order",
+    "policy": "strict_unique"
+  },
+  {
+    "id": "n_folder__strict_unique",
+    "fixture": "n_folder",
+    "policy": "strict_unique"
+  },
+  {
+    "id": "b_same_replace__parse_once",
+    "fixture": "b_same_replace",
+    "policy": "parse_once"
+  },
+  {
+    "id": "a_name_escaped__parse_once",
+    "fixture": "a_name_escaped",
+    "policy": "parse_once"
+  },
+  {
+    "id": "b_unicode__parse_once",
+    "fixture": "b_unicode",
+    "policy": "parse_once"
+  },
+  {
+    "id": "n_name__first_then_last",
+    "fixture": "n_name",
+    "policy": "first_then_last"
+  },
+  {
+    "id": "a_name__first_then_last",
+    "fixture": "a_name",
+    "policy": "first_then_last"
+  },
+  {
+    "id": "b_changed_text__parse_once",
+    "fixture": "b_changed_text",
+    "policy": "parse_once"
+  },
+  {
+    "id": "a_name_escaped__strict_unique",
+    "fixture": "a_name_escaped",
+    "policy": "strict_unique"
+  },
+  {
+    "id": "a_folder__first_then_last",
+    "fixture": "a_folder",
+    "policy": "first_then_last"
+  },
+  {
+    "id": "a_arguments__first_then_last",
+    "fixture": "a_arguments",
+    "policy": "first_then_last"
+  },
+  {
+    "id": "n_invalid__first_then_last",
+    "fixture": "n_invalid",
+    "policy": "first_then_last"
+  },
+  {
+    "id": "b_same_folder__parse_once",
+    "fixture": "b_same_folder",
+    "policy": "parse_once"
+  },
+  {
+    "id": "b_unicode__strict_unique",
+    "fixture": "b_unicode",
+    "policy": "strict_unique"
+  },
+  {
+    "id": "n_invalid__strict_unique",
+    "fixture": "n_invalid",
+    "policy": "strict_unique"
+  },
+  {
+    "id": "a_folder_escaped__parse_once",
+    "fixture": "a_folder_escaped",
+    "policy": "parse_once"
+  },
+  {
+    "id": "a_replace__parse_once",
+    "fixture": "a_replace",
+    "policy": "parse_once"
+  },
+  {
+    "id": "a_arguments__strict_unique",
+    "fixture": "a_arguments",
+    "policy": "strict_unique"
+  },
+  {
+    "id": "b_changed_text__strict_unique",
+    "fixture": "b_changed_text",
+    "policy": "strict_unique"
+  },
+  {
+    "id": "a_folder__strict_unique",
+    "fixture": "a_folder",
+    "policy": "strict_unique"
+  },
+  {
+    "id": "a_replace_escaped__strict_unique",
+    "fixture": "a_replace_escaped",
+    "policy": "strict_unique"
+  },
+  {
+    "id": "n_replace__first_then_last",
+    "fixture": "n_replace",
+    "policy": "first_then_last"
+  },
+  {
+    "id": "a_arguments_escaped__parse_once",
+    "fixture": "a_arguments_escaped",
+    "policy": "parse_once"
+  },
+  {
+    "id": "b_same_name__strict_unique",
+    "fixture": "b_same_name",
+    "policy": "strict_unique"
+  },
+  {
+    "id": "n_name__strict_unique",
+    "fixture": "n_name",
+    "policy": "strict_unique"
+  },
+  {
+    "id": "n_folder__parse_once",
+    "fixture": "n_folder",
+    "policy": "parse_once"
+  },
+  {
+    "id": "a_arguments__parse_once",
+    "fixture": "a_arguments",
+    "policy": "parse_once"
+  },
+  {
+    "id": "a_replace_escaped__first_then_last",
+    "fixture": "a_replace_escaped",
+    "policy": "first_then_last"
+  },
+  {
+    "id": "a_replace__first_then_last",
+    "fixture": "a_replace",
+    "policy": "first_then_last"
+  },
+  {
+    "id": "b_space__first_then_last",
+    "fixture": "b_space",
+    "policy": "first_then_last"
+  },
+  {
+    "id": "b_same_name__parse_once",
+    "fixture": "b_same_name",
+    "policy": "parse_once"
+  },
+  {
+    "id": "a_folder_escaped__strict_unique",
+    "fixture": "a_folder_escaped",
+    "policy": "strict_unique"
+  },
+  {
+    "id": "b_unicode__first_then_last",
+    "fixture": "b_unicode",
+    "policy": "first_then_last"
+  },
+  {
+    "id": "b_plain__strict_unique",
+    "fixture": "b_plain",
+    "policy": "strict_unique"
+  },
+  {
+    "id": "a_replace__strict_unique",
+    "fixture": "a_replace",
+    "policy": "strict_unique"
+  },
+  {
+    "id": "a_replace_escaped__parse_once",
+    "fixture": "a_replace_escaped",
+    "policy": "parse_once"
+  },
+  {
+    "id": "n_name__parse_once",
+    "fixture": "n_name",
+    "policy": "parse_once"
+  },
+  {
+    "id": "a_folder__parse_once",
+    "fixture": "a_folder",
+    "policy": "parse_once"
+  },
+  {
+    "id": "b_changed_text__first_then_last",
+    "fixture": "b_changed_text",
+    "policy": "first_then_last"
+  },
+  {
+    "id": "b_space__strict_unique",
+    "fixture": "b_space",
+    "policy": "strict_unique"
+  },
+  {
+    "id": "b_order__first_then_last",
+    "fixture": "b_order",
+    "policy": "first_then_last"
+  },
+  {
+    "id": "a_arguments_escaped__strict_unique",
+    "fixture": "a_arguments_escaped",
+    "policy": "strict_unique"
+  },
+  {
+    "id": "a_name__strict_unique",
+    "fixture": "a_name",
+    "policy": "strict_unique"
+  },
+  {
+    "id": "n_replace__strict_unique",
+    "fixture": "n_replace",
+    "policy": "strict_unique"
+  },
+  {
+    "id": "n_replace__parse_once",
+    "fixture": "n_replace",
+    "policy": "parse_once"
+  },
+  {
+    "id": "a_name_escaped__first_then_last",
+    "fixture": "a_name_escaped",
+    "policy": "first_then_last"
+  },
+  {
+    "id": "a_name__parse_once",
+    "fixture": "a_name",
+    "policy": "parse_once"
+  },
+  {
+    "id": "b_same_folder__first_then_last",
+    "fixture": "b_same_folder",
+    "policy": "first_then_last"
+  },
+  {
+    "id": "b_same_replace__first_then_last",
+    "fixture": "b_same_replace",
+    "policy": "first_then_last"
+  },
+  {
+    "id": "b_plain__first_then_last",
+    "fixture": "b_plain",
+    "policy": "first_then_last"
+  },
+  {
+    "id": "b_same_folder__strict_unique",
+    "fixture": "b_same_folder",
+    "policy": "strict_unique"
+  },
+  {
+    "id": "a_folder_escaped__first_then_last",
+    "fixture": "a_folder_escaped",
+    "policy": "first_then_last"
+  },
+  {
+    "id": "b_space__parse_once",
+    "fixture": "b_space",
+    "policy": "parse_once"
+  },
+  {
+    "id": "b_same_name__first_then_last",
+    "fixture": "b_same_name",
+    "policy": "first_then_last"
+  }
+]

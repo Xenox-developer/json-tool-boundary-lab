@@ -1,0 +1,16 @@
+{
+  "PROTOCOL.md": "685e56458d7403c6f92d7ee5f1a25b5aac398530a0a8ff788f3b4dffb876a6d6",
+  "fixtures.json": "96d80931ee077384048453940aef5e0d9064ddd79ba4deadf0eb8e05a4377ff8",
+  "schedule.json": "a2440acf28ebf725681ded4a4d5460cc42bb276a6356d266c71194d419739607",
+  "adapter.py": "28841690eb9879ea6d14dbc7c7d856fc85450fdfc7b180cd3e19f01e956add6b",
+  "sink.py": "194df433af09fd2bf317dbffc06729708d071101d8558c0c775b61e1e7866d9b",
+  "run.py": "d81f69d7a1b7b2c53c23defe471f124d47631e7a2c130de09ba0f7abaf71c7f1",
+  "audit.py": "c5da48ab072840a3b84f4f15483f9a9e37b0d044a457e368c9b6480ec552cc64",
+  "tests/check.py": "fd7e83377ce99c11ab6ca4be2b6723bd061b4a7395a5ff40c5c92abb01adef61",
+  "SOURCES.json": "b5cc7fbc9fd1b4e8d378ae4364e176878708642d1673067c6aaefc4617f4a682",
+  "CANDIDATES.json": "4be44f171896a4e8919561c633a4ac43625423d15cb7bb6511a3a4e41779eed5",
+  "evidence/versions.json": "35f366392aaaba068909dc80811c5b9a84f5419946b20654c52aa5627878fda9",
+  "verification/grader_controls.py": "6e09a6ea00d4571892b51afa2a38a090c6bf7a4989a683c5d1a6e1429905f155",
+  "evidence/grader-controls.json": "09dafa5c5902d88c422a279d23e16f90b2415f43ad4024277fcec258f8b2c432",
+  "verification/audit_controls.py": "0e32b4e6a3fb8f856acd3297cf125077790f6fa939cee6715bfa28da178ef13e"
+}

@@ -1,0 +1,11 @@
+{
+  "python": "3.12.1 (v3.12.1:2305ca5144, Dec  7 2023, 17:23:38) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-15.6.1-arm64-arm-64bit",
+  "decoder_file": "decoder.py",
+  "decoder_sha256": "9f02654649816145bc76f8c210a5fe3ba1de142d4d97a1c93105732e747c285b",
+  "default_duplicate_probe": {
+    "x": 2
+  },
+  "invariant_version": "0.3.1",
+  "measured_model_calls": 0
+}

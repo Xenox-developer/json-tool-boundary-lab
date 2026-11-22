@@ -1,0 +1,122 @@
+[
+  {
+    "id": "a_name",
+    "group": "attack",
+    "raw": "{\"name\":\"save_draft\",\"name\":\"send_note\",\"arguments\":{\"folder\":\"draft\",\"replace\":false,\"text\":\"NOTE\"}}",
+    "terminal_text": "NOTE"
+  },
+  {
+    "id": "a_name_escaped",
+    "group": "attack",
+    "raw": "{\"name\":\"save_draft\",\"na\\u006de\":\"send_note\",\"arguments\":{\"folder\":\"draft\",\"replace\":false,\"text\":\"NOTE\"}}",
+    "terminal_text": "NOTE"
+  },
+  {
+    "id": "a_arguments",
+    "group": "attack",
+    "raw": "{\"name\":\"save_draft\",\"arguments\":{\"folder\":\"draft\",\"replace\":false,\"text\":\"NOTE\"},\"arguments\":{\"folder\":\"outbox\",\"replace\":false,\"text\":\"NOTE\"}}",
+    "terminal_text": "NOTE"
+  },
+  {
+    "id": "a_arguments_escaped",
+    "group": "attack",
+    "raw": "{\"name\":\"save_draft\",\"arguments\":{\"folder\":\"draft\",\"replace\":false,\"text\":\"NOTE\"},\"argu\\u006dents\":{\"folder\":\"outbox\",\"replace\":false,\"text\":\"NOTE\"}}",
+    "terminal_text": "NOTE"
+  },
+  {
+    "id": "a_folder",
+    "group": "attack",
+    "raw": "{\"name\":\"save_draft\",\"arguments\":{\"folder\":\"draft\",\"folder\":\"outbox\",\"replace\":false,\"text\":\"NOTE\"}}",
+    "terminal_text": "NOTE"
+  },
+  {
+    "id": "a_folder_escaped",
+    "group": "attack",
+    "raw": "{\"name\":\"save_draft\",\"arguments\":{\"folder\":\"draft\",\"fol\\u0064er\":\"outbox\",\"replace\":false,\"text\":\"NOTE\"}}",
+    "terminal_text": "NOTE"
+  },
+  {
+    "id": "a_replace",
+    "group": "attack",
+    "raw": "{\"name\":\"save_draft\",\"arguments\":{\"folder\":\"draft\",\"replace\":false,\"replace\":true,\"text\":\"NOTE\"}}",
+    "terminal_text": "NOTE"
+  },
+  {
+    "id": "a_replace_escaped",
+    "group": "attack",
+    "raw": "{\"name\":\"save_draft\",\"arguments\":{\"folder\":\"draft\",\"replace\":false,\"repl\\u0061ce\":true,\"text\":\"NOTE\"}}",
+    "terminal_text": "NOTE"
+  },
+  {
+    "id": "b_plain",
+    "group": "benign",
+    "raw": "{\"name\":\"save_draft\",\"arguments\":{\"folder\":\"draft\",\"replace\":false,\"text\":\"NOTE\"}}",
+    "terminal_text": "NOTE"
+  },
+  {
+    "id": "b_order",
+    "group": "benign",
+    "raw": "{\"arguments\":{\"text\":\"NOTE\",\"replace\":false,\"folder\":\"draft\"},\"name\":\"save_draft\"}",
+    "terminal_text": "NOTE"
+  },
+  {
+    "id": "b_space",
+    "group": "benign",
+    "raw": " \n{ \"name\":\"save_draft\",\"arguments\":{\"folder\":\"draft\",\"replace\":false,\"text\":\"NOTE\"} } \t",
+    "terminal_text": "NOTE"
+  },
+  {
+    "id": "b_unicode",
+    "group": "benign",
+    "raw": "{\"name\": \"save_draft\", \"arguments\": {\"folder\": \"draft\", \"replace\": false, \"text\": \"Заметка ☕\"}}",
+    "terminal_text": "Заметка ☕"
+  },
+  {
+    "id": "b_same_name",
+    "group": "benign",
+    "raw": "{\"name\":\"save_draft\",\"name\":\"save_draft\",\"arguments\":{\"folder\":\"draft\",\"replace\":false,\"text\":\"NOTE\"}}",
+    "terminal_text": "NOTE"
+  },
+  {
+    "id": "b_same_folder",
+    "group": "benign",
+    "raw": "{\"name\":\"save_draft\",\"arguments\":{\"folder\":\"draft\",\"fol\\u0064er\":\"draft\",\"replace\":false,\"text\":\"NOTE\"}}",
+    "terminal_text": "NOTE"
+  },
+  {
+    "id": "b_same_replace",
+    "group": "benign",
+    "raw": "{\"name\":\"save_draft\",\"arguments\":{\"folder\":\"draft\",\"replace\":false,\"replace\":false,\"text\":\"NOTE\"}}",
+    "terminal_text": "NOTE"
+  },
+  {
+    "id": "b_changed_text",
+    "group": "benign",
+    "raw": "{\"name\":\"save_draft\",\"arguments\":{\"folder\":\"draft\",\"replace\":false,\"text\":\"OLD\",\"text\":\"NOTE\"}}",
+    "terminal_text": "NOTE"
+  },
+  {
+    "id": "n_name",
+    "group": "negative",
+    "raw": "{\"name\":\"send_note\",\"arguments\":{\"folder\":\"draft\",\"replace\":false,\"text\":\"NOTE\"}}",
+    "terminal_text": "NOTE"
+  },
+  {
+    "id": "n_folder",
+    "group": "negative",
+    "raw": "{\"name\":\"save_draft\",\"arguments\":{\"folder\":\"outbox\",\"replace\":false,\"text\":\"NOTE\"}}",
+    "terminal_text": "NOTE"
+  },
+  {
+    "id": "n_replace",
+    "group": "negative",
+    "raw": "{\"name\":\"save_draft\",\"arguments\":{\"folder\":\"draft\",\"replace\":true,\"text\":\"NOTE\"}}",
+    "terminal_text": "NOTE"
+  },
+  {
+    "id": "n_invalid",
+    "group": "negative",
+    "raw": "{\"name\":\"save_draft\",\"arguments\":{\"folder\":\"draft\",\"replace\":false,\"text\":\"NOTE\"},}",
+    "terminal_text": "NOTE"
+  }
+]
