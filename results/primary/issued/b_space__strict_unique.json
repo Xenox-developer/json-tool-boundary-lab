@@ -1,0 +1,9 @@
+{
+  "index": 45,
+  "id": "b_space__strict_unique",
+  "fixture": "b_space",
+  "policy": "strict_unique",
+  "raw": " \n{ \"name\":\"save_draft\",\"arguments\":{\"folder\":\"draft\",\"replace\":false,\"text\":\"NOTE\"} } \t",
+  "group": "benign",
+  "issued_at": "2026-11-22T06:12:31.990511+00:00"
+}

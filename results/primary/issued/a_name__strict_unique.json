@@ -1,0 +1,9 @@
+{
+  "index": 48,
+  "id": "a_name__strict_unique",
+  "fixture": "a_name",
+  "policy": "strict_unique",
+  "raw": "{\"name\":\"save_draft\",\"name\":\"send_note\",\"arguments\":{\"folder\":\"draft\",\"replace\":false,\"text\":\"NOTE\"}}",
+  "group": "attack",
+  "issued_at": "2026-11-22T06:12:31.999244+00:00"
+}

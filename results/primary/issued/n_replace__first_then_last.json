@@ -1,0 +1,9 @@
+{
+  "index": 27,
+  "id": "n_replace__first_then_last",
+  "fixture": "n_replace",
+  "policy": "first_then_last",
+  "raw": "{\"name\":\"save_draft\",\"arguments\":{\"folder\":\"draft\",\"replace\":true,\"text\":\"NOTE\"}}",
+  "group": "negative",
+  "issued_at": "2026-11-22T06:12:31.941128+00:00"
+}

@@ -1,0 +1,9 @@
+{
+  "index": 1,
+  "id": "n_invalid__parse_once",
+  "fixture": "n_invalid",
+  "policy": "parse_once",
+  "raw": "{\"name\":\"save_draft\",\"arguments\":{\"folder\":\"draft\",\"replace\":false,\"text\":\"NOTE\"},}",
+  "group": "negative",
+  "issued_at": "2026-11-22T06:12:31.868741+00:00"
+}

@@ -1,0 +1,9 @@
+{
+  "index": 38,
+  "id": "b_unicode__first_then_last",
+  "fixture": "b_unicode",
+  "policy": "first_then_last",
+  "raw": "{\"name\": \"save_draft\", \"arguments\": {\"folder\": \"draft\", \"replace\": false, \"text\": \"Заметка ☕\"}}",
+  "group": "benign",
+  "issued_at": "2026-11-22T06:12:31.968595+00:00"
+}

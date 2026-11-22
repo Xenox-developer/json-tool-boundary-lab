@@ -1,0 +1,9 @@
+{
+  "index": 22,
+  "id": "a_replace__parse_once",
+  "fixture": "a_replace",
+  "policy": "parse_once",
+  "raw": "{\"name\":\"save_draft\",\"arguments\":{\"folder\":\"draft\",\"replace\":false,\"replace\":true,\"text\":\"NOTE\"}}",
+  "group": "attack",
+  "issued_at": "2026-11-22T06:12:31.927896+00:00"
+}

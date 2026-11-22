@@ -1,0 +1,9 @@
+{
+  "index": 57,
+  "id": "a_folder_escaped__first_then_last",
+  "fixture": "a_folder_escaped",
+  "policy": "first_then_last",
+  "raw": "{\"name\":\"save_draft\",\"arguments\":{\"folder\":\"draft\",\"fol\\u0064er\":\"outbox\",\"replace\":false,\"text\":\"NOTE\"}}",
+  "group": "attack",
+  "issued_at": "2026-11-22T06:12:32.018964+00:00"
+}

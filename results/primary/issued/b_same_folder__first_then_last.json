@@ -1,0 +1,9 @@
+{
+  "index": 53,
+  "id": "b_same_folder__first_then_last",
+  "fixture": "b_same_folder",
+  "policy": "first_then_last",
+  "raw": "{\"name\":\"save_draft\",\"arguments\":{\"folder\":\"draft\",\"fol\\u0064er\":\"draft\",\"replace\":false,\"text\":\"NOTE\"}}",
+  "group": "benign",
+  "issued_at": "2026-11-22T06:12:32.009620+00:00"
+}

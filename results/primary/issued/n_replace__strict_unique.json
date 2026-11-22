@@ -1,0 +1,9 @@
+{
+  "index": 49,
+  "id": "n_replace__strict_unique",
+  "fixture": "n_replace",
+  "policy": "strict_unique",
+  "raw": "{\"name\":\"save_draft\",\"arguments\":{\"folder\":\"draft\",\"replace\":true,\"text\":\"NOTE\"}}",
+  "group": "negative",
+  "issued_at": "2026-11-22T06:12:32.000582+00:00"
+}

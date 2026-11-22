@@ -1,0 +1,9 @@
+{
+  "index": 10,
+  "id": "b_unicode__parse_once",
+  "fixture": "b_unicode",
+  "policy": "parse_once",
+  "raw": "{\"name\": \"save_draft\", \"arguments\": {\"folder\": \"draft\", \"replace\": false, \"text\": \"Заметка ☕\"}}",
+  "group": "benign",
+  "issued_at": "2026-11-22T06:12:31.890501+00:00"
+}

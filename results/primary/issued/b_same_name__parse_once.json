@@ -1,0 +1,9 @@
+{
+  "index": 36,
+  "id": "b_same_name__parse_once",
+  "fixture": "b_same_name",
+  "policy": "parse_once",
+  "raw": "{\"name\":\"save_draft\",\"name\":\"save_draft\",\"arguments\":{\"folder\":\"draft\",\"replace\":false,\"text\":\"NOTE\"}}",
+  "group": "benign",
+  "issued_at": "2026-11-22T06:12:31.959971+00:00"
+}

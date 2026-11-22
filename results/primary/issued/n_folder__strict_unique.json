@@ -1,0 +1,9 @@
+{
+  "index": 7,
+  "id": "n_folder__strict_unique",
+  "fixture": "n_folder",
+  "policy": "strict_unique",
+  "raw": "{\"name\":\"save_draft\",\"arguments\":{\"folder\":\"outbox\",\"replace\":false,\"text\":\"NOTE\"}}",
+  "group": "negative",
+  "issued_at": "2026-11-22T06:12:31.884302+00:00"
+}

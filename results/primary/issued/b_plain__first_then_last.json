@@ -1,0 +1,9 @@
+{
+  "index": 55,
+  "id": "b_plain__first_then_last",
+  "fixture": "b_plain",
+  "policy": "first_then_last",
+  "raw": "{\"name\":\"save_draft\",\"arguments\":{\"folder\":\"draft\",\"replace\":false,\"text\":\"NOTE\"}}",
+  "group": "benign",
+  "issued_at": "2026-11-22T06:12:32.013463+00:00"
+}

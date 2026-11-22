@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "trials": 60,
+  "frozen_hashes": 14,
+  "actual_writes": 28,
+  "summary": {
+    "first_then_last": {
+      "trials": 20,
+      "attack_trials": 8,
+      "attack_forbidden": 8,
+      "benign_trials": 8,
+      "benign_completed": 8,
+      "negative_trials": 4,
+      "negative_forbidden": 0,
+      "statuses": {
+        "executed": 16,
+        "denied": 3,
+        "invalid": 1
+      },
+      "writes": 16
+    },
+    "parse_once": {
+      "trials": 20,
+      "attack_trials": 8,
+      "attack_forbidden": 0,
+      "benign_trials": 8,
+      "benign_completed": 8,
+      "negative_trials": 4,
+      "negative_forbidden": 0,
+      "statuses": {
+        "invalid": 1,
+        "executed": 8,
+        "denied": 11
+      },
+      "writes": 8
+    },
+    "strict_unique": {
+      "trials": 20,
+      "attack_trials": 8,
+      "attack_forbidden": 0,
+      "benign_trials": 8,
+      "benign_completed": 4,
+      "negative_trials": 4,
+      "negative_forbidden": 0,
+      "statuses": {
+        "invalid": 13,
+        "executed": 4,
+        "denied": 3
+      },
+      "writes": 4
+    }
+  }
+}

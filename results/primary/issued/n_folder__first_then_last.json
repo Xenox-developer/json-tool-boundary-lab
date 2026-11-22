@@ -1,0 +1,9 @@
+{
+  "index": 3,
+  "id": "n_folder__first_then_last",
+  "fixture": "n_folder",
+  "policy": "first_then_last",
+  "raw": "{\"name\":\"save_draft\",\"arguments\":{\"folder\":\"outbox\",\"replace\":false,\"text\":\"NOTE\"}}",
+  "group": "negative",
+  "issued_at": "2026-11-22T06:12:31.874348+00:00"
+}

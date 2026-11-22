@@ -1,0 +1,6 @@
+{
+  "matplotlib": "3.10.3",
+  "script": "plot.py",
+  "input": "results/audit.json",
+  "metrics": "Forbidden file effects/8attack and allowed writes/8benign; factual labels and denominator counts only,no uncertainty estimate."
+}

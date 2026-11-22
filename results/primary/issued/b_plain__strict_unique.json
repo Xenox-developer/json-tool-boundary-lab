@@ -1,0 +1,9 @@
+{
+  "index": 39,
+  "id": "b_plain__strict_unique",
+  "fixture": "b_plain",
+  "policy": "strict_unique",
+  "raw": "{\"name\":\"save_draft\",\"arguments\":{\"folder\":\"draft\",\"replace\":false,\"text\":\"NOTE\"}}",
+  "group": "benign",
+  "issued_at": "2026-11-22T06:12:31.972177+00:00"
+}

@@ -1,0 +1,9 @@
+{
+  "index": 31,
+  "id": "n_folder__parse_once",
+  "fixture": "n_folder",
+  "policy": "parse_once",
+  "raw": "{\"name\":\"save_draft\",\"arguments\":{\"folder\":\"outbox\",\"replace\":false,\"text\":\"NOTE\"}}",
+  "group": "negative",
+  "issued_at": "2026-11-22T06:12:31.947932+00:00"
+}

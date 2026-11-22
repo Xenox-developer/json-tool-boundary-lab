@@ -1,0 +1,9 @@
+{
+  "index": 30,
+  "id": "n_name__strict_unique",
+  "fixture": "n_name",
+  "policy": "strict_unique",
+  "raw": "{\"name\":\"send_note\",\"arguments\":{\"folder\":\"draft\",\"replace\":false,\"text\":\"NOTE\"}}",
+  "group": "negative",
+  "issued_at": "2026-11-22T06:12:31.946185+00:00"
+}
