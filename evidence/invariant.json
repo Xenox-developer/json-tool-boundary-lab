@@ -1,0 +1,259 @@
+{
+  "version": "0.3.1",
+  "attempts": [
+    {
+      "request_id": "json-tool-boundary-lab-20261122-v1",
+      "study_id": "study-3f988f3254de428eabc5dc79b592d600",
+      "completion_state": "rejected",
+      "receipts": [
+        {
+          "schema_version": 1,
+          "study_id": "study-3f988f3254de428eabc5dc79b592d600",
+          "attempt_id": "attempt-47850fcef30d5099d6f98cdb64305d64",
+          "definition_digest": "1710db3b0507cefac199414da5c68cdb6737faffca809db0b95692ad6a6e9998",
+          "baseline_digest": "d55a211b4d548b86a41274f4e89c06c57d694c07c95972b51747db6a92a38e7b",
+          "result_digest": "a944f870f84c9be8578dc720879e10562fbf5b52f766a25003926934a58542f3",
+          "state": "succeeded",
+          "passed": true,
+          "evaluation": {
+            "status": "completed",
+            "reason": null,
+            "reused_validation": true,
+            "contract_version": "b05b5cecff8ef9d006ec9ca30900ad917efc9d31223e3f685c36b8e955655923",
+            "command": "python3 -B tests/check.py",
+            "test_exit_code": 0,
+            "checks": {
+              "tests": 12,
+              "failures": 0,
+              "errors": 0
+            },
+            "fixed_test_count": 7
+          },
+          "resources": {
+            "expected_digest": "91d37c5e6396c47845558ece35416bfd075a708758985db89ade158ccb50a2d8",
+            "observed_digest": "91d37c5e6396c47845558ece35416bfd075a708758985db89ade158ccb50a2d8"
+          },
+          "inference_usage": {
+            "complete": true,
+            "final": {
+              "cached_input_tokens": 25984,
+              "input_tokens": 48026,
+              "output_tokens": 1049,
+              "reasoning_output_tokens": 154,
+              "total_tokens": 49075
+            },
+            "problems": [],
+            "reconciled": true,
+            "response_count": 4
+          },
+          "execution_commands": {
+            "provenance": "executor command-completion events; not worker assertions",
+            "commands": [
+              {
+                "command": "/bin/bash -lc 'cat PROTOCOL.md adapter.py sink.py tests/check.py'",
+                "cwd": "/workspace",
+                "status": "completed",
+                "exit_code": 0
+              }
+            ],
+            "omitted_commands": 1
+          },
+          "receipt_digest": "774de85976a972e8eefcebb6ce98fd29a02357e18dd9c934b9c69e862a4cf841"
+        }
+      ],
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "decision": {
+        "state": "completed",
+        "decision": {
+          "approved": false,
+          "reason": "Deeply nested JSON can cause json.loads to raise RecursionError, which escapes instead of returning invalid for an input that fails the required schema. The supplied validation does not establish coverage of this input-error case.",
+          "review_digest": "c81d73e9b2f4b29f700de6617b6e1c9e19a0a5a5ece90d100182eeba9a076906"
+        },
+        "model": "gpt-6.1-terra",
+        "effort": "medium",
+        "usage": {
+          "total": {
+            "totalTokens": 5545,
+            "inputTokens": 5345,
+            "cachedInputTokens": 0,
+            "cacheWriteInputTokens": 0,
+            "outputTokens": 200,
+            "reasoningOutputTokens": 138
+          },
+          "last": {
+            "totalTokens": 5545,
+            "inputTokens": 5345,
+            "cachedInputTokens": 0,
+            "cacheWriteInputTokens": 0,
+            "outputTokens": 200,
+            "reasoningOutputTokens": 138
+          },
+          "modelContextWindow": 475000
+        },
+        "inference_usage": {
+          "response_count": 1,
+          "complete": true,
+          "reconciled": true,
+          "problems": [],
+          "final": {
+            "input_tokens": 5345,
+            "cached_input_tokens": 0,
+            "output_tokens": 200,
+            "reasoning_output_tokens": 138,
+            "total_tokens": 5545
+          }
+        }
+      },
+      "application": null,
+      "usage": {
+        "model_calls": 2,
+        "input_tokens": 53371,
+        "cached_input_tokens": 25984,
+        "output_tokens": 1249,
+        "reasoning_output_tokens": 292,
+        "total_tokens": 54620,
+        "complete": true
+      }
+    },
+    {
+      "request_id": "json-tool-boundary-lab-20261122-v2",
+      "study_id": "study-49c36459f52c4527ad9a19807f0ba2da",
+      "completion_state": "applied",
+      "receipts": [
+        {
+          "schema_version": 1,
+          "study_id": "study-49c36459f52c4527ad9a19807f0ba2da",
+          "attempt_id": "attempt-d2d2b62d699fbb34a739219b7d4356db",
+          "definition_digest": "0c6da7ed1b6e7efa38fb38f4fb90ceab20dc6c42381db9f141ce7e7fd87f9147",
+          "baseline_digest": "d724e6d35d4fb9f9cec60ed5ffcbfe01bec7be0d0dd6aec5792eb750d3e9ac1f",
+          "result_digest": "3346e5a32eedd6250d924b445c1e88b707bf4f4f249d4033abe43265148fa8ff",
+          "state": "succeeded",
+          "passed": true,
+          "evaluation": {
+            "status": "completed",
+            "reason": null,
+            "reused_validation": true,
+            "contract_version": "108e53b50d3a0f1171ee1330b23e7f0166dcba8b6a197c9cf03cc4e0a9205cf0",
+            "command": "python3 -B tests/check.py",
+            "test_exit_code": 0,
+            "checks": {
+              "tests": 14,
+              "failures": 0,
+              "errors": 0
+            },
+            "fixed_test_count": 7
+          },
+          "resources": {
+            "expected_digest": "91d37c5e6396c47845558ece35416bfd075a708758985db89ade158ccb50a2d8",
+            "observed_digest": "91d37c5e6396c47845558ece35416bfd075a708758985db89ade158ccb50a2d8"
+          },
+          "inference_usage": {
+            "complete": true,
+            "final": {
+              "cached_input_tokens": 40576,
+              "input_tokens": 63699,
+              "output_tokens": 1230,
+              "reasoning_output_tokens": 165,
+              "total_tokens": 64929
+            },
+            "problems": [],
+            "reconciled": true,
+            "response_count": 5
+          },
+          "execution_commands": {
+            "provenance": "executor command-completion events; not worker assertions",
+            "commands": [
+              {
+                "command": "/bin/bash -lc 'cat PROTOCOL.md tests/check.py sink.py adapter.py'",
+                "cwd": "/workspace",
+                "status": "completed",
+                "exit_code": 0
+              },
+              {
+                "command": "/bin/bash -lc \"python3 - <<'PY'\np = 'adapter.py'\ns = open(p).read()\ns = s.replace('\\\\ndef _valid(call):', '\\\\ndef _decode(raw, **options):\\\\n    try:\\\\n        return json.loads(raw, **options)\\\\n    except ValueError as exc:\\\\n        raise _InvalidInput() from exc\\\\n\\\\n\\\\ndef _valid(call):')\ns = s.replace('approved = json.loads(raw, **options)', 'approved = _decode(raw, **options)').replace('executed = json.loads(raw, parse_constant=_reject_constant)', 'executed = _decode(raw, parse_constant=_reject_constant)')\nopen(p, 'w').write(s)\nPY\"",
+                "cwd": "/workspace",
+                "status": "completed",
+                "exit_code": 0
+              }
+            ],
+            "omitted_commands": 1
+          },
+          "receipt_digest": "d640ca70dcecb9592931ed37ab9de728f455aa4a0fcc28e2df8c5db426f010df"
+        }
+      ],
+      "model": "gpt-6.1-terra",
+      "effort": "medium",
+      "decision": {
+        "state": "completed",
+        "decision": {
+          "approved": true,
+          "reason": "The supplied patch meets the stated adapter requirements, including deep-input rejection and callback error propagation. The coordinator-verified 14-group protected suite passed.",
+          "review_digest": "8722af6ee80ecfb8d7c29ecec504a977db76b7be09482920508a2e34c1aa37b1"
+        },
+        "model": "gpt-6.1-terra",
+        "effort": "medium",
+        "usage": {
+          "total": {
+            "totalTokens": 5777,
+            "inputTokens": 5640,
+            "cachedInputTokens": 0,
+            "cacheWriteInputTokens": 0,
+            "outputTokens": 137,
+            "reasoningOutputTokens": 88
+          },
+          "last": {
+            "totalTokens": 5777,
+            "inputTokens": 5640,
+            "cachedInputTokens": 0,
+            "cacheWriteInputTokens": 0,
+            "outputTokens": 137,
+            "reasoningOutputTokens": 88
+          },
+          "modelContextWindow": 475000
+        },
+        "inference_usage": {
+          "response_count": 1,
+          "complete": true,
+          "reconciled": true,
+          "problems": [],
+          "final": {
+            "input_tokens": 5640,
+            "cached_input_tokens": 0,
+            "output_tokens": 137,
+            "reasoning_output_tokens": 88,
+            "total_tokens": 5777
+          }
+        }
+      },
+      "application": {
+        "plan_id": "plan-00fcffdab8ee4be7a81398f103e0ca48",
+        "attempt_id": "attempt-d2d2b62d699fbb34a739219b7d4356db",
+        "applied": true,
+        "verification": {
+          "schema_version": 1,
+          "verified": true,
+          "verified_at": 1795327883.9037254,
+          "plan_digest": "8722af6ee80ecfb8d7c29ecec504a977db76b7be09482920508a2e34c1aa37b1",
+          "result_digest": "3346e5a32eedd6250d924b445c1e88b707bf4f4f249d4033abe43265148fa8ff",
+          "changed_paths": 1,
+          "written_entries_digest": "27c2ae27486990b14a6bc225a5c48997a0b01fcef6060f37aad716dbf1607a67",
+          "protected_inputs": 7,
+          "protected_entries_digest": "497dd3e93f305965c4e78972606d329e365586e68c0b46ffe5cdb75fb4774c4d"
+        },
+        "container_applied": true,
+        "host_delivery_state": "committed"
+      },
+      "usage": {
+        "model_calls": 2,
+        "input_tokens": 69339,
+        "cached_input_tokens": 40576,
+        "output_tokens": 1367,
+        "reasoning_output_tokens": 253,
+        "total_tokens": 70706,
+        "complete": true
+      }
+    }
+  ],
+  "preparation": "Initial preparation failed before registration: Docker address pool exhausted. NOT_FOUND checked before same-ID retry. Temporarily released one verified empty unreferenced bridge; original equivalent configuration restored and verified after EACH task. No containers referenced it."
+}

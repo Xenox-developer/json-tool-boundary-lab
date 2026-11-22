@@ -1,0 +1,14 @@
+{
+  "model_calls": 4,
+  "input_tokens": 122710,
+  "cached_input_tokens": 66560,
+  "output_tokens": 2616,
+  "reasoning_output_tokens": 545,
+  "total_tokens": 125326,
+  "complete": true,
+  "native_sessions": 4,
+  "individual_responses": 11,
+  "measured_llm_calls": 0,
+  "outer_chat_usage": "unavailable",
+  "note": "Both rejected v1 and applied v2 included. Session totals already include individual responses; cached input and reasoning subsets. Initial preparation error used no model session."
+}
